@@ -20,3 +20,7 @@ Razredni starešina: senka.gavrilovic
 Direktor: ivana.nedeljkovic
 
 Roditelj: miodrag.bozovic
+
+##Baza podataka
+
+Skripta baze podataka nalazi se u public folderu.
