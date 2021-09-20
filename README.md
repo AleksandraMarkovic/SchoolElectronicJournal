@@ -21,6 +21,6 @@ Direktor: ivana.nedeljkovic
 
 Roditelj: miodrag.bozovic
 
-##Baza podataka
+## Baza podataka
 
 Skripta baze podataka nalazi se u public folderu.
