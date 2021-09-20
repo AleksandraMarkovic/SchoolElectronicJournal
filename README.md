@@ -25,4 +25,4 @@ Roditelj: **miodrag.bozovic**
 
 ## Baza podataka
 
-Skripta baze podataka nalazi se u **public** folderu.
+Skripta baze podataka nalazi se u **_public_** folderu.
