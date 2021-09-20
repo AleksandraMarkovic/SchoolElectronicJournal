@@ -14,6 +14,9 @@ Takođe svi korisnici mogu izmeniti svoj profil (korisničko ime, šifru i sliku
 ### Lozinka za sve naloge: 12345678
 ### Korisničko ime:
 Admin: aleksandra.markovic
-Razredni starešina: senka.gavrilovic    
+
+Razredni starešina: senka.gavrilovic   
+
 Direktor: ivana.nedeljkovic
+
 Roditelj: miodrag.bozovic
