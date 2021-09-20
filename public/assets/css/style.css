@@ -1,0 +1,743 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+
+body {
+    font-family: 'Fira Sans', sans-serif;
+    background-color: #f1f3f7;
+}
+
+table {
+    background-color: #FFFFFF;
+}
+
+.containerMargina {
+    margin-top: 60px;
+}
+
+.containerMargina1 {
+    margin-top: 100px;
+}
+
+#loginBody {
+    background-image: url("../images/pozadina1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#tabelaLogin {
+    min-height: 50vh;
+    margin-top: 10px;
+}
+
+#loginKol {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #ffffff;
+}
+
+#loginKol form {
+    width: 80%;
+}
+
+#loginBtn {
+    margin-top: 20px;
+    background-color: #f8f9fa;
+    color: #212529;
+}
+
+#loginBtn:hover {
+    background-color: #f9fafb;
+}
+
+#naslov {
+    margin-top: 15vh;
+    font-size: 4vw;
+    color: #ffffff;
+}
+
+#knjiga {
+    margin-top: 18vh;
+    width: 20%;
+}
+
+.navbar {
+    background: linear-gradient(
+        120deg
+        ,#194872 50%,#2daadf);
+}
+
+.navbar-brand {
+    color: #FFFFFF!important;
+}
+
+.dropdown-menu {
+    background: #194872;
+}
+
+.dropdown-menu li a {
+    color: #FFFFFF;
+}
+
+.nastavnik {
+    background: #FFFFFF;
+}
+.nastavnik li a {
+    color: black;
+}
+
+.nav-link {
+    color: #FFFFFF!important;
+}
+
+
+#ikonice {
+    list-style-type: none;
+    display: inline-flex;
+    flex-direction: row;
+    float: right;
+}
+
+#ikonice li {
+    margin-right: 10px;
+}
+#ikonice li a{
+    color: #4a4a4a;
+}
+
+#listaProfil {
+    position: absolute;
+}
+
+.profilnaSlika {
+    width: 70%;
+    border-radius: 50%;
+}
+
+#futer {
+    width: 100%;
+    padding: 1%;
+    border-top: 1px solid #c2c2c2;
+}
+
+#formaLozinka {
+    position: static;
+}
+
+.visina {
+    min-height: 80vh;
+}
+
+#slikaPrijavljen {
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    margin-left: 15px;
+    width: 65px;
+    height: 65px;
+}
+
+#divPrijavljen {
+    margin-right: 5%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#tekstPrijavljen {
+    margin-top: 6%;
+}
+
+#dodajSmer {
+    margin-bottom: 15px;
+    width: 15%;
+}
+
+#dodajPredmet {
+    margin-bottom: 15px;
+    width: 20%;
+}
+
+#izvrsiSmer {
+    margin-left: 10%;
+}
+
+#smer {
+    width: 25vw;
+}
+
+.ucenikOdeljenje {
+    background-color: #ffffff;
+    padding: 1%;
+    width: 18%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+}
+
+
+.ucenikSlika {
+    border-radius: 50%;
+}
+
+.ucenikIme {
+    margin: 15px 0px;
+}
+
+.ucenikIme a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.25vw;
+}
+
+#odeljenjeGore {
+    border-bottom: 1px solid #dce2e6;
+    margin-bottom: 20px;
+}
+
+#odeljenjeGore div h2 {
+    font-size: 1.1vw;
+}
+
+#odeljenjeGore div p {
+    font-size: 0.9vw;
+}
+
+.badge {
+    color: black;
+    padding: 0px;
+    font-weight: normal;
+}
+
+.ocene .row {
+    background-color: #ffffff;
+}
+
+.ocene {
+    padding-left: 2%;
+}
+
+.odeljenjePocetna {
+    padding: 1%;
+    background-color: #ffffff;
+    width: 23%;
+    margin-right: 2%;
+}
+
+.linija {
+    width: 4px;
+    height: 95%;
+    margin-right: 6%;
+    background-color: #478ad4;
+    border-radius: 2px;
+}
+
+.brojOdeljenja {
+    font-size: 20px;
+    font-weight: bold;
+    color: #478ad4;
+}
+
+.brojOdeljenja span {
+    color: #478ad4;
+    font-weight: bold;
+}
+
+.card-title, .card-subtitle {
+    font-weight: normal;
+}
+
+.card-title {
+    color: #194872;
+}
+
+.linkPocetna {
+    background-color: #eef4f8;
+    text-decoration: none;
+    color: #478ad4;
+    border-color: #d1e1ec;
+    margin-right: 1.5%;
+}
+.linkPocetna:hover {
+    background-color: #478ad4;
+    color: #ffffff;
+}
+
+.kolonaCasovi {
+    background-color: #ffffff;
+    width: 23%;
+    margin-right: 1%;
+}
+
+.predmetCas {
+    margin-bottom: 8px!important;
+}
+
+.nastavnaJedinica {
+    color: #194872;
+    font-size: 1.5vw;
+}
+
+.casRed {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    border-right: 1px solid #dce2e6;
+    padding-right: 10px;
+}
+
+.casOpis {
+    margin-left: 10px;
+    margin-top: 10px;
+    padding-bottom: 3%;
+    width: 75%;
+}
+
+.datumCas {
+    width: 100%;
+    padding: 1% 0%;
+    text-align: center;
+    background-color: #f8f9fa;
+    margin-bottom: 10px;
+    border: 0.5px solid #478ad4;
+}
+
+.datumCas:hover {
+    background-color: #478ad4;
+}
+
+.datumCas:hover a {
+    color: #FFFFFF;
+}
+
+.datumCas a {
+    color: black;
+    text-decoration: none;
+}
+
+.linkOdsutni {
+    margin-right: 0%!important;
+}
+
+#prazno {
+    min-height: 50vh;
+}
+
+#prazno p {
+    font-size: 4vw;
+}
+
+.izostanci {
+    width: 25%;
+    /*margin: auto;*/
+    text-align: center;
+    border-radius: 6px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 3% 0%;
+}
+
+.neregulisani {
+    border: 4px solid #478ad4;
+    color: #478ad4;
+}
+
+.neregulisani a {
+    text-decoration: none;
+}
+
+.opravdani {
+    border: 4px solid #6eb981;
+    color: #6eb981;
+}
+
+.neopravdani {
+    border: 4px solid #db2b2e;
+    color: #db2b2e;
+}
+
+.ukupno {
+    border: 4px solid #7743a0;
+    color: #7743a0;
+}
+
+.ocena {
+    width: 12%;
+    background-color:#3a668c;
+    padding: 1% 0%;
+    text-align: center;
+    font-size: 18px;
+    color: #FFFFFF;
+    font-weight: 700;
+    margin-right: 1%;
+    margin-bottom: 10px;
+}
+
+#tabelaPredmeti, .informacije {
+    background-color: #ffffff;
+}
+
+.neregulisaniSelect {
+    width: 100% !important;
+    margin-left: 0!important;
+    margin-top: 5px;
+}
+
+.selectOpravdano {
+    width: 100%!important;
+}
+
+.informacije {
+    padding-top: 2%;
+    padding-left: 2%;
+}
+
+.informacije .col-lg-6 {
+    float: left;
+}
+
+#formaZahtev {
+    background-color: #ffffff;
+    margin-top: 20px;
+}
+
+.zakljucna {
+    width: 15%;
+    background-color: #de445f;
+    padding: 1% 0%;
+    text-align: center;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: bold;
+    margin-left: 50%;
+    margin-bottom: 10px;
+}
+
+.sakrij {
+    display: none;
+}
+
+.ucenik {
+    background-color: #ffffff;
+}
+
+.levo {
+    border-right: 1px solid #dee2e6;
+}
+
+.ucenik .col-lg-9 {
+    padding: 0%!important;
+}
+
+.slika {
+    border-radius: 50%;
+    width: 60%;
+}
+
+.ime {
+    font-size: 1.3vw;
+    margin-bottom: 0px!important;
+}
+
+.linkTab {
+    color: #7a8690!important;
+}
+
+.linkTab.active {
+    color: black!important;
+}
+
+.tekstVladanje {
+    background-color: #eef4f8;
+    color: #3a668c;
+    border-color: #d1e1ec;
+    width: 80%;
+    padding: 1.5% 0;
+    margin-bottom: 0!important;
+    border-radius: 4px 0 0 4px;
+}
+
+.ocenaVladanje {
+    background-color: #3a668c;
+    color: #fff;
+    font-weight: 700;
+    width: 20%;
+    padding: 1.5% 0;
+    margin-bottom: 0!important;
+    border-radius: 0 4px 4px 0;
+}
+
+.srednja, .datumNeregulisani {
+    background-color: #e9ecef;
+    width: 70%;
+    min-height: 5vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-radius: 4px 0 0 4px;
+}
+
+.srednja {
+    width: 89.5%;
+}
+
+
+.datumNeregulisani {
+    width: 90%;
+    justify-content: flex-start;
+}
+
+.srednjaOcena, .casNeregulisani {
+    background-color: #f8f9fa;
+    width: 10%;
+    min-height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 4px 4px 0;
+}
+
+.srednjaOcena p, .srednja p, .casNeregulisani p, .datumNeregulisani p {
+    margin-bottom: 0px!important;
+}
+
+#neregulisaniIzostanci {
+    width: 95%;
+}
+
+.datumNeregulisani p {
+    margin-left: 1vw;
+}
+
+.srednja p {
+    margin-right: 1vw;
+}
+
+#ocenaVred, #zakljucnaOcena {
+    width: 40%;
+}
+
+
+.navigacija {
+    background-color: #f1f3f7;
+}
+
+.predmeti {
+    padding-left: 2%;
+}
+
+.naslovRoditelj {
+    margin-top: 30px;
+}
+
+#redProfil {
+    background-color: #FFFFFF;
+}
+
+.ucenikContainer {
+    margin-top: 110px;
+}
+
+#predmetOcena, #predmetiR {
+    width: 95%;
+}
+
+.naslovInfo {
+    border-bottom: 1px solid #dce2e6;
+    width: 90%;
+}
+
+.naslovPolugodiste {
+    border-top: 1px solid #478ad4;
+    width: 90%;
+}
+
+.polugodiste {
+    color: #478ad4;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.naslovPredmeti {
+    margin-bottom: 5px!important;
+}
+
+.smerOdeljenje {
+    font-size: 1vw;
+    margin-top: 5px;
+}
+
+.naslovProfil {
+    color: #194872;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 1.3vw;
+}
+
+.bezbednost{
+    margin-top: 80px;
+    border-top: 1px solid #dce2e6;
+}
+
+.bezbednost h3 {
+    margin-top: 20px;
+}
+
+#redProfil .col-lg-3 {
+    border-right: 1px solid #dce2e6;
+}
+
+#redProfil .col-lg-8 {
+    padding-left: 3%;
+}
+
+.imePrezime {
+    font-size: 2vw;
+    color: #194872;
+    font-weight: normal;
+}
+
+.dan {
+    font-size: 1.3vw;
+}
+
+.d {
+    font-size: 1.1vw;
+    margin-top: 5px;
+}
+
+.page-item.active .page-link {
+    background-color: #478ad4;
+    border-color: #478ad4;
+}
+
+.page-link {
+    color: #478ad4;
+}
+
+.btn {
+    background-color: #de445f;
+    color: #FFFFFF;
+}
+
+.btn:hover {
+    background-color: #dc3545;
+    color: #FFFFFF;
+}
+
+.close.btn {
+    background-color: #FFFFFF;
+    color: black;
+}
+
+.success {
+    background-color: #28a745;
+}
+
+.success:hover {
+    background-color: #157347;
+}
+
+.nemaZahteva {
+    font-size: 5vw;
+    font-weight: normal;
+}
+
+#tabelaPredmeti thead tr th {
+    color: #194872;
+    text-transform: uppercase;
+}
+
+.nazivPredmeta {
+    color: #336bb6;
+}
+
+#prikaziZakljucnu, #prikaziZahtev {
+    background-color: #eef4f8;
+    color: #3a668c;
+    border-color: #d1e1ec;
+}
+
+#prikaziZakljucnu:hover, #prikaziZahtev:hover {
+    background-color: #3a668c;
+    color: #fff;
+}
+
+#zakljucnaNaslov, .izostanciNaslov {
+    border-top: 1px solid #478ad4;
+    width: 95%;
+}
+
+#zakljucnaNaslov h5, .izostanciNaslov h5 {
+    color: #478ad4;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.zakljucnaPolugodiste {
+    width: 46.7%;
+    background: #f8f9fa;
+    padding: 10px;
+    border-radius: 4px;
+    border: 2px solid transparent;
+}
+
+.zakljucnaPolugodiste:hover {
+    background: #e9ecef;
+}
+
+.zakljucnaPolugodiste h6 {
+    color: #194872;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.zakljucnaPolugodiste p {
+    font-size: 18px;
+    color: #343a40;
+    margin-bottom: 0px!important;
+}
+
+.prosekPrvo, .prosekDrugo, #prosekPrvoR, #prosekDrugoR {
+    width: 46.7%;
+}
+
+.padajucaRoditelj {
+    padding: 0!important;
+}
+
+.labelUcenik {
+    font-size: 18px;
+    color: #194872;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+#ulogovan {
+    margin: 0!important;
+    color: #c4ecff;
+}
+
+.ulogovanResponsive {
+    display: none;
+}
+
+.izaberitePredmet {
+    min-height: 12vh;
+    padding-top: 5%;
+}
+
+.borderBottom {
+    width: 90%;
+    border-bottom: 1px solid #dce2e6;
+    margin-bottom: 10px;
+}
+
+.colSuccess {
+    padding: 0!important;
+}
+
+.colSuccess1 {
+    width: 99%;
+}

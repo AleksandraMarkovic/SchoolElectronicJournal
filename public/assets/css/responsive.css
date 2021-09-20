@@ -1,0 +1,318 @@
+@media screen and (max-width:1024px){
+    #dodajSmer, #dodajPredmet{
+        width: 30%;
+    }
+
+    #slikaPrijavljen {
+        display: none;
+    }
+}
+
+@media screen and (max-width:992px){
+    .imePrezime {
+        font-size: 3vw;
+        margin-bottom: 30px;
+    }
+
+    .imePrezime br {
+        display: none;
+    }
+
+    #redProfil .col-lg-3 {
+        border-right: none;
+    }
+
+    #redProfil .col-lg-8 {
+        margin-top: 0!important;
+        border-top: 1px solid #dce2e6;
+    }
+
+    .naslovProfil {
+        font-size: 1.8vw;
+    }
+
+    .odeljenjePocetna {
+        width: 31%;
+        margin-right: 2%;
+    }
+
+    .kolonaCasovi {
+        width: 48%;
+        margin-right: 2%;
+    }
+
+    .ulogovanResponsive {
+        display: block;
+    }
+
+    #divPrijavljen {
+        display: none!important;
+    }
+
+    .levo {
+        display: flex;
+        justify-content: flex-start;
+        margin-bottom: 20px;
+    }
+
+    .slikaIme {
+        width: 50%;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .imeSmer {
+        width: 60%;
+        padding-top: 10%;
+        margin-left: 5%;
+        text-align: left;
+    }
+
+    .ime {
+        font-size: 2vw;
+    }
+
+    .dugmici div, .dugmici a {
+        width: 50%!important;
+    }
+
+    .polugodista {
+        flex-direction: column;
+    }
+
+    .divKontakt {
+        width: 100% !important;
+        margin-top: 30%;
+        margin-left: 35%;
+    }
+
+    .btnDodajKontakt {
+        width: 100%!important;
+    }
+
+    .vroditelj {
+        width: 40% !important;
+    }
+
+    .vucenik {
+        margin-top: 10% !important;
+    }
+
+    .informacije {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .informacije .col-lg-6 {
+        width: 90%!important;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width:768px){
+    #futer .row .col-md-4, #futer .row .col-md-8 {
+        display: flex;
+        justify-content: center;
+    }
+
+    #ikonice {
+        padding: 0!important;
+    }
+
+    .odeljenjePocetna {
+        width: 48%;
+        margin-right: 2%;
+    }
+
+    #odeljenjeGore .col-md-6{
+        display: flex;
+        justify-content: center!important;
+    }
+
+    #odeljenjeGore .odeljenjeResponsive{
+        display: flex;
+        flex-direction: column;
+        align-items: center!important;
+    }
+
+    .ucenikIme a {
+        font-size: 2vw;
+    }
+
+    .smerOdeljenje {
+        font-size: 1.8vw;
+    }
+
+    .datumCas {
+        padding: 2% 0%;
+    }
+
+    .dan {
+        font-size: 2.5vw;
+    }
+
+    .d {
+        font-size: 2vw;
+    }
+
+    .nastavnaJedinica {
+        font-size: 4vw;
+    }
+
+    #navbar {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ucenikOdeljenje {
+        width: 23%;
+        margin-right: 2%;
+    }
+
+}
+
+@media screen and (max-width:480px){
+    #smer {
+        width: 50vw;
+    }
+
+    #dodajSmer, #dodajPredmet{
+        width: 50%;
+    }
+
+    .imePrezime {
+        font-size: 8vw;
+    }
+
+    .naslovProfil {
+        font-size: 4.5vw;
+    }
+
+    .containerMargina1 {
+        margin-top: 50px!important;
+    }
+
+    #futer {
+        margin-top: 0!important;
+    }
+
+    #containerPocetna .row {
+        justify-content: center!important;
+    }
+
+    .odeljenjePocetna {
+        width: 80%;
+        padding-left: 2%;
+        padding-bottom: 2%;
+    }
+
+    .kolonaCasovi {
+        width: 80%;
+        margin-right: 2%;
+    }
+
+    .casovi {
+        justify-content: center!important;
+    }
+
+    .datumCas {
+        margin-left: 0.5%;
+    }
+
+    .odeljenjePocetna:last-child {
+        margin-bottom: 20px;
+    }
+
+    .containerMargina2 {
+        margin-top: 80px!important;
+    }
+
+    .dan {
+        font-size: 4vw;
+    }
+
+    .d {
+        font-size: 3.2vw;
+    }
+
+    .nastavnaJedinica {
+        font-size: 5.3vw;
+    }
+
+    #casDatum {
+        width: 65%!important;
+    }
+
+    .ucenikOdeljenje {
+        width: 48%;
+        margin-right: 2%;
+    }
+
+    .ucenikIme a {
+        font-size: 3.8vw;
+    }
+
+    .smerOdeljenje {
+        font-size: 3vw;
+    }
+
+    .djaci {
+        padding-left: 2%;
+    }
+
+    .levo {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .slikaIme {
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .imeSmer {
+        text-align: left;
+    }
+
+    .ime {
+        font-size: 5vw;
+    }
+
+    .divVladanje, .divTekstVladanje, #prikaziOcenu, #prikaziZakljucnu, #prikaziZahtev {
+        width: 75%!important;
+    }
+
+    .divKontakt {
+        margin-top: 20%;
+        margin-left: 0%;
+    }
+
+    .prosek, #zakljucneUcenik, #zakljucneRoditelj {
+        flex-direction: column;
+        margin-top: 0!important;
+    }
+
+    .prosekPrvo, .prosekDrugo, #prosekPrvoR, #prosekDrugoR, .zakljucnaPolugodiste {
+        width: 90%;
+        margin-bottom: 10px;
+    }
+
+    .naslovPolugodiste {
+        width: 95% !important;
+    }
+
+    .datumNeregulisani {
+        width: 75% !important;
+        margin-left: 2%;
+    }
+
+    .casNeregulisani {
+        width: 20% !important;
+    }
+
+    .divTekstVladanje {
+        margin-top: 10px!important;
+    }
+
+}
