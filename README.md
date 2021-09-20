@@ -11,16 +11,18 @@ Takođe svi korisnici mogu izmeniti svoj profil (korisničko ime, šifru i sliku
 
 ## Logovanje
 
-### Lozinka za sve naloge: 12345678
-### Korisničko ime:
-Admin: aleksandra.markovic
+**Lozinka** za sve naloge: **12345678**
 
-Razredni starešina: senka.gavrilovic   
+**Korisničko ime:**
 
-Direktor: ivana.nedeljkovic
+Admin: **aleksandra.markovic**
 
-Roditelj: miodrag.bozovic
+Razredni starešina: **senka.gavrilovic**   
+
+Direktor: **ivana.nedeljkovic**
+
+Roditelj: **miodrag.bozovic**
 
 ## Baza podataka
 
-Skripta baze podataka nalazi se u public folderu.
+Skripta baze podataka nalazi se u **public** folderu.
